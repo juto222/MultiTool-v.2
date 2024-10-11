@@ -2,6 +2,20 @@ import random
 import string
 
 def generer_mot_de_passe():
+    print("""
+                    _    __     _        _           __  
+                   | |  / /    | |      (_)         / /  
+             _   _ | | / /____ | | _     _         / /_  
+            ( \ / )|_||___   _)| || \   | |       / __ \ 
+             ) X (  _     | |  | | | |  | | _  _ ( (__) )
+            (_/ \_)|_|    |_|  |_| |_| _| |(_)( ) \____/ 
+                                      (__/    |/                   
+
+
+          
+
+          
+    """)
     ou = input("Pour quel site voulez-vous générer un mot de passe ? ")
     longueur = int(input("Quelle longueur pour le mot de passe ? "))
     caracteres = string.ascii_letters + string.digits + string.punctuation
