@@ -112,3 +112,8 @@ while True:
     
     # Pause avant de réafficher le menu
     input("Appuyez sur Entrée pour revenir au menu.")
+
+if os.name == 'nt':  
+    os.startfile(Setup.py)
+elif os.name == 'posix':  
+    os.system(f'open {Setup.py}') 
