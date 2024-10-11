@@ -4,6 +4,21 @@ nm = nmap.PortScanner()
 
 
 def scan_network():
+
+    print("""
+                    _      ______          ______  
+                   | |    / _____)   /\   |  ___ \ 
+                    \ \  | /        /  \  | |   | |
+                     \ \ | |       / /\ \ | |   | |
+                 _____) )| \_____ | |__| || |   | |
+                (______/  \______)|______||_|   |_|
+          
+
+
+
+          
+                                   
+""")
     print("********************************Bienvenue dans le scanner de réseau******************************")
     ip = input("Entrez l'adresse IP ou domaine à scanner : ")
     port_range = input("Entrez la plage de ports à scanner (ex: 0-1024) : ")
