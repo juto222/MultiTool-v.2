@@ -1,6 +1,20 @@
 import hashlib
 
 def calculer_hash_fichier():
+    print("""
+
+                 ______           _        _  _  _          ______   _______ 
+                |  ___ \    /\   | |      | || || |   /\   (_____ \ (_______)
+                | | _ | |  /  \  | |      | || || |  /  \   _____) ) _____   
+                | || || | / /\ \ | |      | ||_|| | / /\ \ (_____ ( |  ___)  
+                | || || || |__| || |_____ | |___| || |__| |      | || |_____ 
+                |_||_||_||______||_______) \______||______|      |_||_______)
+                                                             
+          
+          
+          
+          
+          """)
     chemin_fichier = input("Entrez le chemin du fichier à vérifier : ")
     hash_malware = input("Entrez le hash SHA-256 connu du malware : ")
 
