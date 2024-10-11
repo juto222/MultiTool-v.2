@@ -1,6 +1,19 @@
 import dns.resolver
 
 def sousdomaine():
+    print("""
+                         _  _  _  _  _  _  _  _  _      ______   _____   ______  
+                        | || || || || || || || || |    / _____) / ___ \ |  ___ \ 
+                        | || || || || || || || || |   | /      | |   | || | _ | |
+                        | ||_|| || ||_|| || ||_|| |   | |      | |   | || || || |
+                        | |___| || |___| || |___| | _ | \_____ | |___| || || || |
+                         \______| \______| \______|(_) \______) \_____/ |_||_||_|
+          
+
+
+          
+
+""")
     domain = input("Entrez le domaine cible ex(url.com): ")
     subdomains = ['www', 'mail', 'ftp', 'dev', 'admin']
     for sub in subdomains:
