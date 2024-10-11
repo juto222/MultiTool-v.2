@@ -1,7 +1,7 @@
 import hashlib
 
 def calculer_hash_fichier():
-    print("""
+    print(r"""
 
                  ______           _        _  _  _          ______   _______ 
                 |  ___ \    /\   | |      | || || |   /\   (_____ \ (_______)
