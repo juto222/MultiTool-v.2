@@ -1,6 +1,6 @@
 import sys
 import os
-from PYTHONNNN import main
+from MultiTool-v.2 import main
 
 
 print("Installation des modules pour mon tool:")
