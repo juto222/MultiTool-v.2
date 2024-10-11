@@ -1,7 +1,7 @@
 import requests
 
 def web():
-    print("""
+    print(r"""
                     _    __     _        _           __  
                    | |  / /    | |      (_)         / /  
              _   _ | | / /____ | | _     _         / /_  
