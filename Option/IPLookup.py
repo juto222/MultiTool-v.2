@@ -3,6 +3,19 @@ import requests
 
 
 def obtenir_infos_ip(ip_address):
+    print("""
+                  __   ____   ______       __     __    _____       __      __   ______   ______ 
+                 /  | / __ \ (_____ \     /  |   / /   / ___ \     /  |    /  | / __   | / __   |
+                /_/ |( (__) )  ____) )   /_/ |  / /_  ( (   ) )   /_/ |   /_/ || | //| || | //| |
+                  | | \__  /  /_____/      | | / __ \  > > < <      | |     | || |// | || |// | |
+                  | |   / /   _______  _   | |( (__) )( (___) ) _   | | _   | ||  /__| ||  /__| |
+                  |_|  /_/   (_______)(_)  |_| \____/  \_____/ (_)  |_|(_)  |_| \_____/  \_____/ 
+          
+
+
+          
+                                                                                 
+""")
     
     ip_a_verifier = input("Entrez une adresse IP : ")
     
@@ -23,6 +36,6 @@ def obtenir_infos_ip(ip_address):
             print(f"Erreur : Impossible de récupérer les informations de l'IP {ip_address}")
     except Exception as e:
         print(f"Une erreur est survenue : {e}")
-        
+
         obtenir_infos_ip(ip_a_verifier)
 
