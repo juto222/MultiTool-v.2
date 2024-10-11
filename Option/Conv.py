@@ -1,8 +1,22 @@
 import ipaddress
 
 def convertir():
-    
-    ipv6_hex = input("Entrez une adresse IPv6 en hexadécimal (ex: 20010dbc29999999999999999999991) : ")
+
+    print("""
+                          __                             ______   ______   ______   __ 
+                         /  |                  _  _     / __   | / __   | / __   | /  |
+                        /_/ |   ___  ___  ___ ( \( \   | | //| || | //| || | //| |/_/ |
+                          | |  (___)(___)(___) ) )) )  | |// | || |// | || |// | |  | |
+                          | |                 (_/(_/   |  /__| ||  /__| ||  /__| |  | |
+                          |_|                           \_____/  \_____/  \_____/   |_|
+          
+
+          
+      
+
+                                                               
+    """)
+    ipv6_hex = input("Entrez une adresse IPv6 en hexadécimal (ex: 20010db8000000000000000000000001) : ")
 
     try:
         ipv6_normal = ipaddress.IPv6Address(ipv6_hex)
