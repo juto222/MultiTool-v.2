@@ -5,7 +5,7 @@ nm = nmap.PortScanner()
 
 def scan_network():
 
-    print("""
+    print(r"""
                     _      ______          ______  
                    | |    / _____)   /\   |  ___ \ 
                     \ \  | /        /  \  | |   | |
