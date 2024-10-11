@@ -10,6 +10,7 @@ import ipaddress
 from Option import ScanNetwork
 from Option import GenererIPv6
 from Option import MdpGenerer
+from Option import WebCheck
 from Option import Sousdomaine
 from Option import IPLookup
 from Option import HashFichier
@@ -28,15 +29,15 @@ def afficher_menu():
                    ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
           
 
-                            
+                            https://discord.gg/6WjWn5f6RF  
           
 
             [Network]                    [Mot de passe]                                 [PC]  
           
-    1- Random IPv6 Generator        3- Générer un mot de passe          4- Vérifier si un fichier est un malware
-    2- Scanner Network              6- Hacher un mot de passe           9- Convertir hexadécimal en décimal
-    5- Sous domaine                 7- Vérifier un mot de passe         
-    8- Info sur l'IP               
+    1- Random IPv6 Generateur   |   3- Générer un mot de passe      |    4- Vérifier si un fichier est un malware
+    2- Scanner Network          |   6- Hacher un mot de passe       |    9- Convertir hexadécimal en décimal
+    5- Sous domaine             |   7- Vérifier un mot de passe     |    10- Vérifier si un site est en ligne
+    8- Info sur l'IP            |                                   |
 
     0- Quitter
     """)
@@ -98,6 +99,11 @@ while True:
             Conv.convertir()
         except Exception as e:
             print(f"Erreur lors de la conversion : {e}")
+    elif choix == 10:
+        try:
+            WebCheck.web()
+        except Exception as e:
+            print(f"Erreur lors de la vérification : {e}")
     elif choix == 0:
         print("Au revoir!")
         break
