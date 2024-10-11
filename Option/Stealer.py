@@ -6,6 +6,29 @@ import win32api
 import requests
 import time
 
+print(""""
+    _     _______  _______          _        _______  ______  
+   | |   (_______)(_______)   /\   | |      (_______)(_____ \ 
+    \ \   _        _____     /  \  | |       _____    _____) )
+     \ \ | |      |  ___)   / /\ \ | |      |  ___)  (_____ ( 
+ _____) )| |_____ | |_____ | |__| || |_____ | |_____       | |
+(______/  \______)|_______)|______||_______)|_______)      |_|
+
+
+
+
+                                                              
+""")
+
+print("""Quel info vous voulez prendre ?
+
+1-discord token
+2- Mot de passe
+3-Système info
+""")
+
+str(input("Entrez Les Info que vous voulez prendre:"))
+
 def B10ck_K3y(): pass
 def Unb10ck_K3y(): pass
 def B10ck_T45k_M4n4g3r(): pass
