@@ -1,6 +1,21 @@
 import requests
 
 def web():
+    print("""
+                    _    __     _        _           __  
+                   | |  / /    | |      (_)         / /  
+             _   _ | | / /____ | | _     _         / /_  
+            ( \ / )|_||___   _)| || \   | |       / __ \ 
+             ) X (  _     | |  | | | |  | | _  _ ( (__) )
+            (_/ \_)|_|    |_|  |_| |_| _| |(_)( ) \____/ 
+                                      (__/    |/                   
+
+
+          
+
+          
+                                                         
+""")
     url = input("Entrez l'URL du site à vérifier (ex: http://example.com) : ")
     try:
         response = requests.get(url)
