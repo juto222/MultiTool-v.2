@@ -28,7 +28,7 @@ def afficher_menu():
                    ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
           
 
-                            https://discord.gg/6WjWn5f6RF  
+                            
           
 
             [Network]                    [Mot de passe]                                 [PC]  
