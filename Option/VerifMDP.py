@@ -2,7 +2,7 @@ import re
 
 def mdp_force(password):
 
-    print("""
+    print(r"""
 
                           ______  _     _  _______   ______  _    _ 
                          / _____)| |   | |(_______) / _____)| |  / )
