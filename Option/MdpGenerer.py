@@ -2,7 +2,7 @@ import random
 import string
 
 def generer_mot_de_passe():
-    print("""
+    print(r"""
                     _    __     _        _           __  
                    | |  / /    | |      (_)         / /  
              _   _ | | / /____ | | _     _         / /_  
