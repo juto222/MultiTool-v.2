@@ -1,4 +1,3 @@
-
 import sys
 import os
 import socket
@@ -6,7 +5,7 @@ import win32api
 import requests
 import time
 
-print(r""""
+print(r"""
     _     _______  _______          _        _______  ______  
    | |   (_______)(_______)   /\   | |      (_______)(_____ \ 
     \ \   _        _____     /  \  | |       _____    _____) )
