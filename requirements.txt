@@ -1,2 +1,9 @@
-python-nmap
-dnspython
+random
+string
+hashlib
+dns.resolver
+requests
+nmap
+re
+ipaddress
+webbrowser
