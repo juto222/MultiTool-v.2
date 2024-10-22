@@ -8,7 +8,6 @@ import re
 import ipaddress
 import webbrowser
 
-from Options import ScanNetwork
 from Options import GenererIPv6
 from Options import MdpGenerer
 from Options import WebCheck
@@ -70,11 +69,6 @@ while True:
             GenererIPv6.generate_ipv6() 
         except Exception as e:
             print(f"Erreur lors de la génération d'IPv6 : {e}")
-    elif choix == 2:
-        try:
-            ScanNetwork.scan_network()  
-        except Exception as e:
-            print(f"Erreur lors du scan du réseau : {e}")
     elif choix == 3:
         try:
             MdpGenerer.generer_mot_de_passe()
