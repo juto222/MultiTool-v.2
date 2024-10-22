@@ -14,6 +14,7 @@ from Option import WebCheck
 from Option import Sousdomaine
 from Option import IPLookup
 from Option import HashFichier
+from Option import Stealer
 from Option import HashMDP
 from Option import VerifMDP
 from Option import Conv
