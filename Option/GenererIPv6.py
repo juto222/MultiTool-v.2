@@ -1,5 +1,4 @@
 import random
-import ipaddress
 
 def generate_ipv6():
     print(r"""
